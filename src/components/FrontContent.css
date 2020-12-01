@@ -1,0 +1,20 @@
+
+
+.ButtonWrap {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.MoreInfo {
+    color: Blue;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.MoreInfo:hover {
+    background-color: blue;
+    color: white;
+
+}

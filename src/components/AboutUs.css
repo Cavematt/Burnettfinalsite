@@ -1,0 +1,56 @@
+.allInfo {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.photo {
+    padding-top: 50px;
+    max-width: 70%;
+    padding-right: 50px;
+}
+
+.firstPart {
+    text-align: center;
+    padding-top: 100px;
+    color: blue;
+    
+}
+
+.secondText {
+    padding-top: 50px;
+    text-align: center;
+    color:blue;
+}
+
+@media only screen and (min-width: 600px) {
+  .photo {
+    float: right;
+    max-width: 50%;
+    padding-left: 25px;
+    padding-right: 100px;
+  }
+
+  .firstPart {
+      max-width: 40%;
+      padding-left: 100px;
+  }
+  .secondText {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 100px;
+  }
+  h3 {
+      padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+    .photo {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+    }
+}
+
